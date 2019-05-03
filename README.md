@@ -8,4 +8,4 @@ Open the terminal window and change directories to the directory containing the 
 
 <strong>GIVE THE SCRIPT EXECUTION PERMISSIONS</strong>
 Change execution permissions on file if necessary with: 
-\tchmod u+x ScriptRunner.sh
+&nbsp;&nbsp;&nbsp;&nbsp;chmod u+x ScriptRunner.sh
