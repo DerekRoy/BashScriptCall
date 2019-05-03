@@ -7,5 +7,7 @@ Open the terminal window and change directories to the directory containing the 
 ![Directory change picture](images/Picture1.png)
 
 <strong>GIVE THE SCRIPT EXECUTION PERMISSIONS</strong>
-Change execution permissions on file if necessary with: 
+&nbsp;
+Change execution permissions on file if necessary with:
+&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;chmod u+x ScriptRunner.sh
