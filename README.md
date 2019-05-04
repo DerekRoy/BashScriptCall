@@ -3,7 +3,7 @@
 
 <h2>Script to Run Python in New Windows (Ubuntu)</h2>
 
-<p>Open the terminal window and change directories to the directory containing the ScriptRunner.sh file</p>
+Open the terminal window and change directories to the directory containing the ScriptRunner.sh file
 ![Directory change](images/Picture1.png)
 
 <h3>GIVE THE SCRIPT EXECUTION PERMISSIONS</h3>
