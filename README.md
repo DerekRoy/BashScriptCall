@@ -1,10 +1,10 @@
 # BashScriptCall
-A script used in Ubuntu to execute python scripts from different directories in new terminal windows. This script requires a bit of set up, below are instructions for setting up your workspace to accomodate for the these changes. Feel free to contribute to this code, the read me, or the project to make it better for others to use. 
+<p>A script used in Ubuntu to execute python scripts from different directories in new terminal windows. This script requires a bit of set up, below are instructions for setting up your workspace to accomodate for the these changes. Feel free to contribute to this code, the read me, or the project to make it better for others to use.</p> 
 
 <h2>Script to Run Python in New Windows (Ubuntu)</h2>
 
-Open the terminal window and change directories to the directory containing the ScriptRunner.sh file 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Directory change](images/Picture1.png)
+<p>Open the terminal window and change directories to the directory containing the ScriptRunner.sh file</p>
+![Directory change](images/Picture1.png)
 
 <h3>GIVE THE SCRIPT EXECUTION PERMISSIONS</h3>
 <p>Change execution permissions on file if necessary with:<br />
