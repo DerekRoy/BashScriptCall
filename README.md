@@ -9,29 +9,29 @@ Open the terminal window and change directories to the directory containing the 
 <h3>GIVE THE SCRIPT EXECUTION PERMISSIONS</h3>
 <p>Change execution permissions on file if necessary with:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chmod u+x ScriptRunner.sh</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Permissions change](images/Picture2.png)
+![Permissions change](images/Picture2.png)
 
 <h3>EDIT YOUR BASH FILE</h3>
 <p>Go in to your bashrc file to allow windows to retain names when changed<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vim ~/.bashrc</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![vim bash command](images/Picture3.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![bashrc file in vim](images/Picture4.png)
+![vim bash command](images/Picture3.png)
+![bashrc file in vim](images/Picture4.png)
 
 <p>Press i and scroll down till you find a line that looks like this: <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ps1 line in bashrc file](images/Picture5.png)
+![ps1 line in bashrc file](images/Picture5.png)
 
 <p>Change:</p>
 <p>PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"</p>
 <p>to</p>
 <p>PS1="${debian_chroot:+($debian_chroot)}\u@\h \w$"</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ps1 line in bashrc file after changing the line](images/Picture6.png)
+![ps1 line in bashrc file after changing the line](images/Picture6.png)
 
 <p> Press the escape key. <br />Enter a : with the keyboard.<br />Type wq!</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![wq! in vim to exit](images/Picture7.png)
+![wq! in vim to exit](images/Picture7.png)
 
 <p>Now execute: source ~/.bashrc</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![source ~/.bashrc command](images/Picture8.png)
+![source ~/.bashrc command](images/Picture8.png)
 
 [Setting Gnome-Terminal Tritles Froumn](https://askubuntu.com/questions/30988/how-do-you-set-the-title-of-the-active-gnome- terminal-from-the-command-line)
 
