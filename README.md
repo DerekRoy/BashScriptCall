@@ -7,8 +7,8 @@ Open the terminal window and change directories to the directory containing the 
 ![Directory change](images/Picture1.png)
 
 <h3>GIVE THE SCRIPT EXECUTION PERMISSIONS</h3>
-<p>Change execution permissions on file if necessary with:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chmod u+x ScriptRunner.sh</p>
+Change execution permissions on file if necessary with:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chmod u+x ScriptRunner.sh
 ![Permissions change](images/Picture2.png)
 
 <h3>EDIT YOUR BASH FILE</h3>
