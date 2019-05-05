@@ -9,14 +9,14 @@ Open the terminal window and change directories to the directory containing the 
 ### GIVE THE SCRIPT EXECUTION PERMISSIONS
 Change execution permissions on file if necessary with:
 
-`chmod u+x ScriptRunner.sh`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`chmod u+x ScriptRunner.sh`.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Permissions change](images/Picture2.png)
 
 ### EDIT YOUR BASH FILE
 Go in to your bashrc file to allow windows to retain names when changed
 
-`vim ~/.bashrc`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`vim ~/.bashrc`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![vim bash command](images/Picture3.png)
 
@@ -24,17 +24,17 @@ Go in to your bashrc file to allow windows to retain names when changed
 
 Press i and scroll down till you find a line that looks like this:
 
-`PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ps1 line in bashrc file](images/Picture5.png)
 
 Change:
 
-`PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to:
 
-`PS1="${debian_chroot:+($debian_chroot)}\u@\h \w$"`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`PS1="${debian_chroot:+($debian_chroot)}\u@\h \w$"`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ps1 line in bashrc file after changing the line](images/Picture6.png)
 
@@ -66,15 +66,15 @@ To choose what scripts to run you need to go into the ScriptRunner.sh file and c
 
 Simply add in the absolute file path of your script with the script in it, for example:
 
-`scripts=(“/Home/gurus/Documents/test.py” “...”)`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`scripts=(“/Home/gurus/Documents/test.py” “...”)`
 
 Then in the names array you can give the terminal a unique name:
 
-`names=(“Documents_Test” “...”)`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`names=(“Documents_Test” “...”)`
 Names can not contain spaces.
 
 Finally run the code by entering:
-`./ScriptRunner.sh`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./ScriptRunner.sh`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Changing file paths in the script](images/Picture10.png).
 
