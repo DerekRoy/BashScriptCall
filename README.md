@@ -48,7 +48,7 @@ Now execute: `source ~/.bashrc`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![source ~/.bashrc command](images/Picture8.png)
 
-[Setting Gnome-Terminal Titles Froum](https://askubuntu.com/questions/30988/how-do-you-set-the-title-of-the-active-gnome- terminal-from-the-command-line)
+[Setting Gnome-Terminal Titles Froum](https://askubuntu.com/questions/30988/how-do-you-set-the-title-of-the-active-gnome-terminal-from-the-command-line)
 
 ### **IN CASE YOU MESS UP**
 [Forum on restoring bashrc to default](https://askubuntu.com/questions/404424/how-do-i-restore-bashrc-to-its-default)
